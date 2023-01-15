@@ -46,8 +46,6 @@ esbuild
     outdir: `./dist`,
     mainFields: ["svelte", "browser", "module", "main"],
     // logLevel: `info`,
-    minify: false, //so the resulting code is easier to understand
-    sourcemap: "inline",
     splitting: true,
     write: true,
     format: `esm`,
@@ -187,9 +185,13 @@ yarn deploy
 You should now have a Svelte Application on the Permaweb! Great Job!
 :::
 
+::: warning Fund Wallet
+if your application is greater than 120 kb, you will need to fund you bundlr wallet. See [https://bundlr.network](https://bundlr.network) for more information.
+::: 
+
 ## Repository
 
-A completed version of this example is available here: [https://github.com/twilson63/permaweb-minimal-svelte-starter]
+A completed version of this example is available here: [https://github.com/twilson63/permaweb-minimal-svelte-starter](https://github.com/twilson63/permaweb-minimal-svelte-starter)
 
 ## Summary
 
